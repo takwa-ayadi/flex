@@ -1,0 +1,38 @@
+.parent--flex-start{
+    
+    justify-content: flex-start;
+}
+
+.child {
+  background-color: green; 
+  color: white;
+  padding: 15px 25px;
+  margin: 5px;
+  border-radius: 5px;
+
+}
+
+.parent {
+  display: flex;
+  background-color:gray;
+  border: 1px solid #777; 
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.parent--flex-end{
+    justify-content:end;
+
+}
+.parent--center {
+  justify-content: center;
+}
+.parent--space-between{
+    justify-content: space-between;
+}
+.parent--space-around{
+    justify-content: space-around;
+}
+.parent--space-evenly{
+    justify-content: space-evenly;
+}

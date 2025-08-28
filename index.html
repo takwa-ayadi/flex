@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Justify-content practice</title>
+  </head>
+  <body>
+    <h1>Justify-content — 6 examples</h1>
+
+    <div class="demo">
+      <h2>justify-content: flex-start</h2>
+      <div class="parent parent--flex-start">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+      </div>
+      <p class="desc">Children start from the left (main-start).</p>
+    </div>
+
+    <div class="demo">
+      <h2>justify-content: flex-end</h2>
+      <div class="parent parent--flex-end">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+      </div>
+      <p class="desc">Children pushed to the right (main-end).</p>
+    </div>
+
+    <div class="demo">
+      <h2>justify-content: center</h2>
+      <div class="parent parent--center">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+      </div>
+      <p class="desc">Children centered as a group in the main axis.</p>
+    </div>
+
+    <div class="demo">
+      <h2>justify-content: space-between</h2>
+      <div class="parent parent--space-between">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+      </div>
+      <p class="desc">
+        First at start, last at end; equal space between items.
+      </p>
+    </div>
+
+    <div class="demo">
+      <h2>justify-content: space-around</h2>
+      <div class="parent parent--space-around">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+      </div>
+      <p class="desc">
+        Equal space *around* items — edges get half the space of inner gaps.
+      </p>
+    </div>
+
+    <div class="demo">
+      <h2>justify-content: space-evenly</h2>
+      <div class="parent parent--space-evenly">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+      </div>
+      <p class="desc">
+        Equal space between items *and* edges (completely even).
+      </p>
+    </div>
+
+    <footer>
+      <p class="hint">
+        Tip: change <code>flex-direction</code> to <code>column</code> to see
+        how these values affect vertical distribution.
+      </p>
+    </footer>
+  </body>
+</html>
